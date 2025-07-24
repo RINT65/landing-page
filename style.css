@@ -65,8 +65,9 @@
 .hbsignup {
     color: #F9FAF8;
     background-color: #3882F6;
+    border-color: #3882F6;
     border-radius: 5px;
-    border-style: none;
+    border-style: hidden;
     width: 5rem;
     height: 1.5rem;
     margin-top: .5rem;
@@ -95,6 +96,12 @@
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.square > p {
+    inline-size: 200px;
+    overflow-wrap: break-word;
 }
 
 .subfooter {
@@ -117,4 +124,38 @@
     font-size: 18px;
     font-weight: 900;
     font-style: normal;
+}
+
+.cta {
+    background-color: #3882F6;
+    width: 1200px;
+    height: 160px;
+    margin: 80px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ctexts {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.ctextw {
+    color: #E5E7EB;
+    margin-top: 6px;
+
+}
+
+.ctabutton {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    border-style: solid;
+    width: 5rem;
+    height: 1.5rem;
+    margin-top: .5rem;
 }
